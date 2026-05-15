@@ -1,5 +1,5 @@
-import { redirect } from "next/navigation";
+import { EntryGate } from "./components/EntryGate";
 
 export default function Home() {
-  redirect("/landing.html");
+  return <EntryGate />;
 }
